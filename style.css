@@ -1,0 +1,187 @@
+.searchbybrand{
+    display: flexbox;
+    padding: 35px 20px;
+    background-color: #33cccc;
+    animation: enter;
+    animation-duration: 3s;
+}
+@keyframes enter {
+    from {
+        margin-left: 100%;
+        width: 100%;
+      }
+    
+      to {
+        margin-left: 0%;
+        width: 100%;
+      }
+}
+.order-row{
+    font-size: 20px;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.product-price{
+    background-color: rgb(255, 115, 0);
+    color: white;
+    padding: 1px 80px;
+    border-radius: 5px;
+}
+.offcanvas.offcanvas-end{
+    background-color: #b6ebe3;
+    padding: 15px;
+}
+.form-control.me-2{
+    width: 600px;
+    margin-right: 50%;
+    padding: 2px;
+}
+
+.d-flex{
+    margin-right: 30px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.smalllogo{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+.rightmenu{
+    display: flex;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+}
+.d-grid.gap-2.d-md-block{
+    display: flex;
+}
+.navbar-nav.me-auto.mb-2.mb-lg-0{
+    font-size: 17px;
+    font-weight: 1000;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.mainnav{
+    display: flex;
+}
+.order-btn{
+    padding: 13px 10px;
+}
+body{
+    background-color: #33cccc;
+}
+.footerd{
+    background-color: rgb(0, 0, 0);
+    color: black;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+.brandlogos{
+    width: 80px;
+    height: 80px;
+    padding: 4px;
+    border-radius: 40px;
+    margin-right: 15px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.959);
+    margin-top: 10px;
+    transition: 0.3s;
+}
+.brandlogos:hover{
+    background-color: rgba(223, 224, 222, 0.959);
+}
+.newarrivals{
+    display: flex;
+    padding: 50px;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+.card-body{
+    display: flex;
+    justify-content: space-between;
+    background-color: #cdf1e5;
+}
+.btn.btn-primary.buynow{
+    height: 35px;
+    width: 100px;
+    margin-left: 5px;
+    border-radius: 5px;
+    font-size: large;
+}
+.card:hover{
+    box-shadow: 1px 1px 5px;
+}
+.midtitle{
+    font-size: 400px;
+    text-align: center;
+    padding: 20px 0px;
+    padding-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #33cccc;
+}
+.midtitle-2{
+    font-size: 400px;
+    text-align: center;
+    padding: 20px 0px;
+    padding-bottom: 5px;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #ffffff;
+}
+.footer{
+    background-color: rgb(8, 8, 8);
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.footerlogo{
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    border-radius: 5px;
+    filter: contrast(75%);
+}
+.footerlogo:hover{
+    filter: contrast(100%);
+}
+.footerextra{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px 50px;
+    font-size: 13px;
+    text-align: start;
+}
+.card{
+    animation: entercards;
+    animation-duration: 3s;
+}
+@keyframes entercards {
+    from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+}
+.aboutus{
+    flex: 1;
+    text-align: justify;
+    padding: 40px;
+}
+.connect{
+    flex: 1;
+    padding: 40px;
+}
+.payment{
+    flex: 1;
+    padding: 40px;
+}
+.btn.btn-primary.Knowmore{
+    height: 50px;
+    width: 70px;
+}

@@ -1,0 +1,110 @@
+.container{
+    margin: 20px;
+    margin-left: 125px;
+}
+.img-fluid.rounded-start{
+    height: 100%;
+}
+.card.mb-3:hover{
+    box-shadow: 0px 2px 4px;
+    margin-bottom: 20px;
+}
+.footerd{
+    background-color: rgb(0, 0, 0);
+    color: black;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+.footer{
+    background-color: rgb(8, 8, 8);
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+.footerlogo{
+    height: 40px;
+    padding: 5px;
+    margin-bottom: 5px;
+    justify-content: space-between;
+    border-radius: 5px;
+    filter: contrast(75%);
+}
+.footerlogo:hover{
+    filter: contrast(100%);
+}
+.footerextra{
+    display: flex;
+    justify-content: space-around;
+    padding: 2px 50px;
+    font-size: 13px;
+    text-align: start;
+}
+.aboutus{
+    flex: 1;
+    text-align: justify;
+    padding: 40px;
+}
+.connect{
+    flex: 1;
+    padding: 40px;
+}
+.payment{
+    flex: 1;
+    padding: 40px;
+}
+.order-row{
+    font-size: 20px;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+.product-price{
+    background-color: rgb(255, 115, 0);
+    color: white;
+    padding: 1px 80px;
+    border-radius: 5px;
+}
+.offcanvas.offcanvas-end{
+    background-color: #b6ebe3;
+    padding: 15px;
+}
+.form-control.me-2{
+    width: 600px;
+    margin-right: 50%;
+    padding: 2px;
+}
+
+.d-flex{
+    margin-right: 30px;
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.smalllogo{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    padding-top: 1px;
+}
+.rightmenu{
+    display: flex;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+}
+.d-grid.gap-2.d-md-block{
+    display: flex;
+}
+.navbar-nav.me-auto.mb-2.mb-lg-0{
+    font-size: 17px;
+    font-weight: 1000;
+    font-family: 'Didact Gothic', sans-serif;
+}
+.mainnav{
+    display: flex;
+}
+.order-btn{
+    padding: 13px 10px;
+}

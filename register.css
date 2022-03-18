@@ -1,0 +1,27 @@
+.container{
+    background-color:#b6ebe3;
+    padding: 10px 200px;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+.main{
+    width: 90%;
+    padding: 80px 70px;
+}
+.image{
+    width: 1000px;
+    height: 715px;
+}
+.page{
+    display: flex;
+}
+.btn-register{
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+}
+.btn-register:hover{
+    color: white;
+}
